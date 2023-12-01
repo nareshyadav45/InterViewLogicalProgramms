@@ -8,7 +8,7 @@ public class DateAndTimeApiLocal {
 		
 		LocalDate date= LocalDate.now();
 		System.out.println(date);
-		date.
+		
 		
 		LocalTime time =LocalTime.now();
 		System.out.println(time);

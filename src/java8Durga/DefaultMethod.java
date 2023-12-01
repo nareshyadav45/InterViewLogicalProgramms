@@ -10,8 +10,8 @@ public interface DefaultMethod {
 	default void m3() {
 		System.out.println("default method");
 	}
-	default int hashCode() {
-		return 10;
-	}
+//	default int hashCode() {
+//		return 10;
+//	}
 
 }

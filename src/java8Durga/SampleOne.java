@@ -59,9 +59,9 @@ public class SampleOne {
 		//System.out.println(collect9);
 		//System.out.println(collect9.get(0));
 	
-		Stream<T>
-		//l.stream().sorted((i1,i2)->i1.compareTo(i2)).collect(Collectors.toList());
-		System.out.println(l);
+//		Stream<T>
+//		l.stream().sorted((i1,i2)->i1.compareTo(i2)).collect(Collectors.toList());
+//		System.out.println(l);
 		Integer min = l.stream().min((i1,i2)->i1.compareTo(i2)).get();
 		//System.out.println(min);
 	

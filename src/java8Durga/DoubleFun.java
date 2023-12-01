@@ -27,7 +27,7 @@ public class DoubleFun {
 	ToDoubleFunction<Integer> m=g->Math.sqrt(g);
 	System.out.println(m.applyAsDouble(9));
 	
-	Supplier<T>
+	//Supplier<T>
 	
 	
 	
