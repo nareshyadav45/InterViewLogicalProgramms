@@ -32,19 +32,19 @@ List<String> sorted = s.stream().sorted().collect(Collectors.toList());
 	
 	System.out.println(collect10);
 	
-	List<String> collect11 = s.stream().sorted((i1,i2)->{
-	  if(i1<i2.length()) {
-		  return -1;
-		  }
-	  else if(i1>i2) {
-		  return +1;
-		  }
-	  else {
-		  return 0;
-		  }
-	}).collect(Collectors.toList());
+//	List<String> collect11 = s.stream().sorted((i1,i2)->{
+//	  if(i1<i2.length()) {
+//		  return -1;
+//		  }
+//	  else if(i1>i2) {
+//		  return +1;
+//		  }
+//	  else {
+//		  return 0;
+//		  }
+//	}).collect(Collectors.toList());
 	
-	System.out.println(s);
-	System.out.println(collect11);
+//	System.out.println(s);
+//	System.out.println(collect11);
 }
 }

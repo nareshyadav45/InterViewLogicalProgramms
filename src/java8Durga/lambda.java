@@ -10,10 +10,10 @@ public class lambda {
 //		}
 //	}
 	
-	(int n)->{return n*n;}
-	(int n)->n*n;
-	(n)->n*n
-	n->n*n;
+//	(int n)->{return n*n;}
+//	(int n)->n*n;
+//	(n)->n*n
+//	n->n*n;
 	
 	
 	
