@@ -9,6 +9,7 @@ public class ArrayString {
 		List<String> str = Arrays.asList("Naresh Yadav","Sanghamesh Nandi","Suarabh Katti","Nilesh Chavan","Srikanth Rainier");
 		str.stream().sorted().forEach(System.out::println);;
 		//stream.forEach(System.out::println);
+		//List<Integer> ll=new ArrayList();
 	}
 
 }
