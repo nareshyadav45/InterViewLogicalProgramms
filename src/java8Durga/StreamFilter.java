@@ -18,6 +18,7 @@ public class StreamFilter {
 //		Stream<T>
 //		List<Integer> streamOfElements = l.stream().filter(i->i%2==0).collect(Collectors.toList());
 //		System.out.println(streamOfElements);
+		
 	}
 
 }
